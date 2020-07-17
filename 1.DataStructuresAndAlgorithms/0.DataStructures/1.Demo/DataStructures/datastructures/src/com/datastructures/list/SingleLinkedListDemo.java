@@ -142,25 +142,6 @@ class SingleLinkedList<E>{
         }
         return false;
     }
-
-    //单链表的整表删除
-    public void free(){
-        if(length == 0){
-            return;
-        }
-
-        Node<E> temp = head.next;
-        Node<E> free = null;
-        while(temp != null ){
-            if(temp.next != null){
-                free = temp;
-                temp = temp.next;
-                free = null;
-            }else{
-                temp = null;
-            }
-        }
-    }
 }
 
 //  节点
