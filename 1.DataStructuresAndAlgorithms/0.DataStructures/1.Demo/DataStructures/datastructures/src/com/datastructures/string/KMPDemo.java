@@ -4,12 +4,13 @@ import java.util.Arrays;
 
 public class KMPDemo {
     public static void main(String[] args) {
-        String s = "abaaabaaaabababacabad";
+        String s = "aaababacbacbacb";
         String t = "ababac";
         char[] sChar = s.toCharArray();
         char[] tChar = t.toCharArray();
         tChar = add(tChar);
-        System.out.println(Arrays.toString(next(tChar)));
+        int[] next = next(tChar);
+        System.out.println(match(add(sChar), tChar, next));
     }
 
     //  计算next数组
@@ -33,16 +34,21 @@ public class KMPDemo {
     }
 
     //  开始匹配
-    public static void match(char[] s, char[] t, int[] next){
+    public static int match(char[] s, char[] t, int[] next){
         int i = 1;
         int j = 1;
-        while(i < s.length - 1 && j < t.length - 1){
-            if(t[j] == s[i]){
+        while(i < s.length && j < t.length ){
+            if(j == 0 || s[i] == t[j]){
                 i++;
                 j++;
             }else{
                 j = next[j];
             }
+        }
+        if(j == t.length){
+            return i - t.length;
+        }else{
+            return -1;
         }
     }
 
