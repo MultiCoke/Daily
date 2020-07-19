@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50c75b6f-f3f9-4875-bcec-3ddb70c92c76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/string/KMPDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/string/KMPDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
-  <component name="RunManager" selected="Application.KMPDemo">
+  <component name="RunManager" selected="Application.ResverTest">
     <configuration name="KMPDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructures.string.KMPDemo" />
       <module name="datastructures" />
@@ -139,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructures.stack.StackDemo" />
+    <configuration name="ResverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructures.stack.ResverTest" />
       <module name="datastructures" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResverTest" />
         <item itemvalue="Application.KMPDemo" />
         <item itemvalue="Application.LinkQueueDemo" />
         <item itemvalue="Application.RPNCalculatorDemo" />
         <item itemvalue="Application.LinkedStackDemo" />
-        <item itemvalue="Application.StackDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +191,7 @@
       <workItem from="1594998645609" duration="54000" />
       <workItem from="1594998735508" duration="4099000" />
       <workItem from="1595035507561" duration="6694000" />
+      <workItem from="1595121726182" duration="4905000" />
     </task>
     <servers />
   </component>
@@ -215,10 +215,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594558779047" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1594969192433">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1595156712537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594969192433" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595156712537" />
     <state x="634" y="245" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594889122534">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -227,22 +227,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594558616899" />
-    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1595078996179">
+    <state width="606" height="912" key="GridCell.Tab.0.bottom" timestamp="1595161827112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595078996179" />
-    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1595078996179">
+    <state width="606" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595161827112" />
+    <state width="606" height="912" key="GridCell.Tab.0.center" timestamp="1595161827112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595078996179" />
-    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1595078996179">
+    <state width="606" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595161827112" />
+    <state width="606" height="912" key="GridCell.Tab.0.left" timestamp="1595161827112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595078996179" />
-    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1595078996179">
+    <state width="606" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595161827112" />
+    <state width="606" height="912" key="GridCell.Tab.0.right" timestamp="1595161827112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595078996179" />
+    <state width="606" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595161827112" />
     <state width="1877" height="341" key="GridCell.Tab.1.bottom" timestamp="1595078996180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
