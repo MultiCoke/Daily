@@ -11,7 +11,7 @@
 
 ## 1.DataStructuresAndAlgorithms
 
-+ [DataStructures](https://github.com/Upmerge/Daily/tree/master/1.DataStructuresAndAlgorithms/0.DateStructures)
++ [DataStructures](https://github.com/Upmerge/Daily/tree/master/1.DataStructuresAndAlgorithms/0.DataStructures)
 + [Algorithms](https://github.com/Upmerge/Daily/tree/master/1.DataStructuresAndAlgorithms/1.Algorithms)
 + [Leetcode](https://github.com/Upmerge/Daily/tree/master/1.DataStructuresAndAlgorithms/2.Leetcode)
 
