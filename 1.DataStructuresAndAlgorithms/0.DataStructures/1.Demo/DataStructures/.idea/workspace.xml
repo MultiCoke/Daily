@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50c75b6f-f3f9-4875-bcec-3ddb70c92c76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../0.Note/0.数据结构与算法.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0.Note/List.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0.Note/Stack.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0.Note/next数组演示.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0.Note/数据结构概述.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../0.Note/算法概述.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0.Note/2.List.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../0.Note/2.List.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/DoubleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/DoubleLinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/SingleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/SingleLinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/SqListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/SqListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/CycleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/CycleLinkedListDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +197,7 @@
       <workItem from="1595209424794" duration="2905000" />
       <workItem from="1595299892219" duration="19000" />
       <workItem from="1595319705732" duration="855000" />
-      <workItem from="1595477865953" duration="2220000" />
+      <workItem from="1595477865953" duration="3623000" />
     </task>
     <servers />
   </component>

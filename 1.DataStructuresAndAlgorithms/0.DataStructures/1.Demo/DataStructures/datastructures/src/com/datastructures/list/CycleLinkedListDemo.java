@@ -93,6 +93,7 @@ public class CycleLinkedListDemo {
 //  循环链表
 class CycleLinkedList<E>{
     private Node<E> rear;
+    private int length;
 
     public CycleLinkedList() {
         this.rear = null;
@@ -122,13 +123,7 @@ class CycleLinkedList<E>{
 
     //  获取链表长度
     public int getLength(){
-        Node<E> temp = rear.next;
-        int length = 1;
-        while(temp != rear){
-            temp = temp.next;
-            length++;
-        }
-        return length++;
+        return length;
     }
 
     //  插入节点
@@ -143,6 +138,7 @@ class CycleLinkedList<E>{
                 Node<E> insertN = new Node<>(e);
                 insertN.next = temp.next;
                 temp.next = insertN;
+                length++;
                 return true;
             }
             temp = temp.next;
@@ -161,6 +157,7 @@ class CycleLinkedList<E>{
         while(temp.next != null){
             if(i == j){
                 temp.next = temp.next.next;
+                length--;
                 return true;
             }
             temp = temp.next;
@@ -180,6 +177,7 @@ class CycleLinkedList<E>{
         addN.next = rear.next;
         rear.next = addN;
         rear = addN;
+        length++;
     }
 
     //  遍历链表
