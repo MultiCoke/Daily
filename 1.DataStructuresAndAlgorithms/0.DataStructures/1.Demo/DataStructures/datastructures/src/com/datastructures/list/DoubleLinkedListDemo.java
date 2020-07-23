@@ -35,14 +35,16 @@ public class DoubleLinkedListDemo {
 
 
 
-//  双向链表
+//  双向循环链表
 class DoubleLinkedList<E>{
     private DulNode<E> head;
+    private int length;
 
     public DoubleLinkedList() {
         this.head = new DulNode<>(null);
         head.next = head;
         head.prior = head;
+        this.length = 0;
     }
 
     public DulNode<E> getHead() {
@@ -51,7 +53,7 @@ class DoubleLinkedList<E>{
 
     //  插入节点
     public boolean insert(E e, int i){
-        if(i <= 0){
+        if(i <= 0 || i > length){
             return false;
         }
 
@@ -64,6 +66,7 @@ class DoubleLinkedList<E>{
                 insertN.prior = temp;
                 temp.next = insertN;
                 insertN.next.prior = insertN;
+                length++;
                 return true;
             }
             temp = temp.next;
@@ -83,6 +86,7 @@ class DoubleLinkedList<E>{
         addN.next.prior = addN;
         temp.next = addN;
         addN.prior = head;
+        length++;
     }
 
     //  删除节点
@@ -97,6 +101,7 @@ class DoubleLinkedList<E>{
             if(i == j){
                 temp.prior.next = temp.next;
                 temp.next.prior = temp.prior;
+                length--;
                 return true;
             }
             temp = temp.next;
@@ -108,12 +113,6 @@ class DoubleLinkedList<E>{
 
     //  获取有效节点个数
     public int getLength(){
-        int length = 0;
-        DulNode<E> temp = head.next;
-        while(temp != head){
-            length++;
-            temp = temp.next;
-        }
         return length;
     }
 

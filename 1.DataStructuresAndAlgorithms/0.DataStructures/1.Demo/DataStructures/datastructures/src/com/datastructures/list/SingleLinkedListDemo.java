@@ -54,6 +54,11 @@ class SingleLinkedList<E>{
         this.length = 0;
     }
 
+    //  判断链表是否为空
+    public boolean isEmpty(){
+        return length == 0;
+    }
+
     //  获取头节点
     public Node<E> getHead(){
         return this.head;
@@ -147,7 +152,7 @@ class SingleLinkedList<E>{
 //  节点
 class Node<E>{
     public E e; //  数据域
-    public Node<E> next; //    下一节点指针
+    public Node<E> next; // 下一节点指针
 
     public Node(E e) {
         this.e = e;
