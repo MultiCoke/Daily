@@ -12,7 +12,7 @@
 
 ## 2.线性表的顺序存储结构
 1. 定义：线性表的顺序存储结构，指的是用一段地址连续的存储单元依次存储线性表的数据元素
-<div align=center>![15](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/15.PNG)
+<div align=center>![15](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/15.PNG)</div>
 2. 数据长度与线性表长度
     + 数据长度：数组的长度是存放线性表的存储空间的长度
     + 线性表长度：线性表中数据元素的个数
@@ -34,13 +34,13 @@
 
 ## 3.线性表的链式存储结构
 1. 定义：把存储数据元素信息的域称为数据域，把存储直接后继位置的域称为指针域。指针域中存储的信息称做指针或链。这两部分信息组成数据元素ai的存储映像，称为结点，n个结点链结成一个链表，即为线性表的链式存储结构，因为此链表的每个结点中只包含一个指针域，所以叫做单链表。
-<div align=center>![16](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/16.PNG)
+<div align=center>![16](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/16.PNG)</div>
 2. 头指针
     + 链表中第一个结点的存储位置叫做头指针
-    <div align=center>![17](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/17.PNG)
+    <div align=center>![17](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/17.PNG)</div>
 3. 头结点
     + 单链表的第一个存储数据的结点前的结点称为头结点，可以不存储任何信息，或者存储长度等附加信息
-    <div align=center>![18](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/18.PNG)
+    <div align=center>![18](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/18.PNG)</div>
 4. 头指针与头结点的异同
     + 头指针
         + 头指针是指链表指向第一个结点的指针，若链表有头结点，则是指向头结点的指针
@@ -77,14 +77,14 @@
 ## 4.循环链表
 1. 定义：将单链表中终端结点的指针端由空指针改为指向头结点，就使整个单链表形成一个环，这种头尾相接的单链表称为单循环链表，简称循环链表
     + 头指针指向尾结点的循环链表，查找尾结点的时间复杂度为O(1)。
-<div align=center>![19](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/19.PNG)
+<div align=center>![19](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/19.PNG)</div>
 2. 实现
 ~~~
 ~~~
 
 ## 5.双向链表
 1. 定义：双向链表是在单链表的每个结点中，再设置一个指向其前驱结点的指针域。
-<div align=center>![20](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/20.PNG)
+<div align=center>![20](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/20.PNG)</div>
 2. 实现
 ~~~
 ~~~
