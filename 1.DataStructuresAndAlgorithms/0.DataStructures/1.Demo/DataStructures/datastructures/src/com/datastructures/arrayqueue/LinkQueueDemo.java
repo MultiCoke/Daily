@@ -19,10 +19,12 @@ public class LinkQueueDemo {
 class LinkQueue<E>{
     private LQNode<E> front;
     private LQNode<E> rear;
+    private int length;
 
     public LinkQueue() {
         this.front = new LQNode<>(null);
         this.rear = this.front;
+        this.length = 0;
     }
 
     //  入队列
@@ -30,6 +32,7 @@ class LinkQueue<E>{
         LQNode<E> en = new LQNode<>(e);
         rear.next = en;
         rear = en;
+        length++;
         return true;
     }
 
@@ -44,7 +47,18 @@ class LinkQueue<E>{
             rear = front;
         }
         front.next = front.next.next;
+        length--;
         return temp.data;
+    }
+
+    //  获取队头元素
+    public E getHead(){
+        return this.rear.data;
+    }
+
+    //  获取队列元素个数
+    public int length(){
+        return length;
     }
 
     //  遍历

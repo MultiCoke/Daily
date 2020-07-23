@@ -9,109 +9,90 @@ import java.util.Scanner;
  */
 public class CircleArrayQueueDemo {
     public static void main(String[] args) {
-        CircleArrayQueue caq = new CircleArrayQueue(4);
-        Scanner scanner = new Scanner(System.in);
-        boolean loop = true;
-        while(loop) {
-            System.out.println("q:展示数据");
-            System.out.println("a:插入数据");
-            System.out.println("o:取出数据");
-            System.out.println("h:展示头部数据");
-            System.out.println("e:退出");
-            char c = scanner.next().charAt(0);
-            switch (c) {
-                case 'q':
-                    caq.show();
-                    break;
-                case 'a':
-                    System.out.println("请输入数据：");
-                    int a = scanner.nextInt();
-                    caq.addQueue(a);
-                    break;
-                case 'o':
-                    try {
-                        System.out.println(caq.outQueue());
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    break;
-                case 'h':
-                    try {
-                        System.out.println(caq.headQueue());
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                    break;
-                case 'e':
-                    loop = false;
-                    scanner.close();
-                    break;
-            }
-            System.out.println();
-        }
+        CircleSqQueue<Integer> sq = new CircleSqQueue<Integer>(5);
+        sq.enQueue(1);
+        sq.enQueue(2);
+        sq.enQueue(3);
+        sq.enQueue(4);
+        sq.enQueue(5);
+        sq.deQueue();
+        sq.enQueue(22);
+        sq.enQueue(22);
+        System.out.println(sq.length());
+
+        sq.list();
     }
 }
 
-class CircleArrayQueue{
+//  循环队列
+class CircleSqQueue<E>{
     private int maxSize;
-    private int front;
-    private int rear;
-    private int[] arr;
+    private int front;  // 指向第一个数据
+    private int rear;   // 指向最后一个数据的后一位
+    private int length;
+    private Object[] obj;
 
-    public CircleArrayQueue(int maxSize) {
-        this.maxSize = maxSize;
-        front = 0; // 指向第一个数据
-        rear = 0; // 指向最后一个数据的后一位
-        arr = new int[maxSize]; // 最后一个位置不存储数据，当队列满时好判断a
+    public CircleSqQueue(int maxSize) {
+        this.maxSize = maxSize + 1;
+        this.front = 0;
+        this.rear = 0;
+        this.length = 0;
+        this.obj = new Object[maxSize + 1];
     }
 
-    //判断队列是否为满
+    //  判断队列是否为满
     public boolean isFull(){
         return (rear + 1) % maxSize == front;
     }
 
-    //判断队列是否为空
+    //  判断队列是否为空
     public boolean isEmpty(){
         return rear == front;
     }
 
-    //添加数据到队列
-    public void addQueue(int n){
-        System.out.println(rear);
+    //  入队列
+    public void enQueue(E e){
         if(isFull()){
             System.out.println("队列已满，无法添加");
             return;
         }
-        arr[rear] = n;
+        obj[rear] = e;
         rear = (rear + 1) % maxSize;
+        length++;
+        System.out.println(rear);
     }
 
-    //从队列取出数据
-    public int outQueue(){
+    //  出队列
+    public E deQueue(){
         if(isEmpty()){
-            throw new RuntimeException("队列为空，无法取出");
+            return null;
         }
-        int value = arr[front];
+        E temp = (E)obj[front];
         front = (front + 1) % maxSize;
-        return value;
+        length--;
+        return temp;
     }
 
-    //展示队列元素
-    public void show(){
+    //  获取队列头部数据
+    public E headQueue(){
+        if(isEmpty()){
+            return null;
+        }
+        return (E)obj[front];
+    }
+
+    //  获取队列元素个数
+    public int length(){
+        return length;
+    }
+
+    //  遍历队列
+    public void list(){
         if(isEmpty()){
             System.out.println("队列为空");
         }
         for (int i = front; i < front + (rear + maxSize - front) % maxSize; i++) {
-            System.out.printf("arr[%d] = %d\n", i % maxSize, arr[i % maxSize]);
+            System.out.printf("%d\n",obj[i % maxSize]);
         }
     }
-
-    //获取队列头部数据
-    public int headQueue(){
-        if(isEmpty()){
-            throw new RuntimeException("队列为空，没有头数据");
-        }
-        return arr[front];
-    }
-
 }
