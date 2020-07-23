@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50c75b6f-f3f9-4875-bcec-3ddb70c92c76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/recursion/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../0.Note/3.Stack.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../0.Note/3.Stack.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/stack/LinkedStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/stack/LinkedStackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/stack/SqStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/stack/SqStackDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +195,7 @@
       <workItem from="1595209424794" duration="2905000" />
       <workItem from="1595299892219" duration="19000" />
       <workItem from="1595319705732" duration="855000" />
-      <workItem from="1595477865953" duration="6228000" />
+      <workItem from="1595477865953" duration="6569000" />
     </task>
     <servers />
   </component>
