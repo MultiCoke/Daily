@@ -12,7 +12,9 @@
 
 ## 2.线性表的顺序存储结构
 1. 定义：线性表的顺序存储结构，指的是用一段地址连续的存储单元依次存储线性表的数据元素
-<center>![15](https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/15.PNG)</center>
+<div style="align: center">
+<img src="https://github.com/Upmerge/Daily/blob/master/1.DataStructuresAndAlgorithms/0.DataStructures/0.Note/image/15.PNG"/>
+</div>
 2. 数据长度与线性表长度
     + 数据长度：数组的长度是存放线性表的存储空间的长度
     + 线性表长度：线性表中数据元素的个数
