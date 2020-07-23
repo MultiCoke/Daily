@@ -3,32 +3,22 @@ package com.datastructures.stack;
 public class LinkedStackDemo {
     public static void main(String[] args) {
         LinkedStack<Integer> ls = new LinkedStack<>();
-        ls.pop();
-        ls.push(1);
-        ls.push(2);
-        ls.push(3);
-        ls.push(4);
-        ls.push(5);
-        ls.pop();
-        ls.pop();
-        ls.pop();
-        System.out.println(ls.getCount());
-        ls.list();
+
     }
 }
 
 //  链表栈
 class LinkedStack<E>{
     private LsNode<E> top;
-    private int count;
+    private int length;
 
     public LinkedStack() {
         this.top = null;
-        count = 0;
+        length = 0;
     }
 
-    public int getCount() {
-        return count;
+    public int getLength() {
+        return length;
     }
 
     //  入栈
@@ -36,7 +26,7 @@ class LinkedStack<E>{
         LsNode<E> pushN = new LsNode<>(e);
         pushN.next = top;
         top = pushN;
-        count++;
+        length++;
     }
 
     //  出栈
@@ -48,8 +38,13 @@ class LinkedStack<E>{
         LsNode<E> temp = top;
         top = top.next;
         temp.next = null;
-        count--;
+        length--;
         return temp;
+    }
+
+    //  判断栈是否为空
+    public boolean isEmpty(){
+        return length == 0;
     }
 
     //  遍历

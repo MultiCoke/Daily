@@ -1,6 +1,5 @@
 package com.datastructures.stack;
 
-import java.util.Arrays;
 import java.util.Stack;
 
 public class SqStackDemo {
@@ -51,31 +50,53 @@ public class SqStackDemo {
 
 //  顺序栈
 class Sqstack<E>{
-    private Object[] data;
+    private Object[] obj;
     private int top;
     private int maxSize;
+    private int length;
 
     public Sqstack(int maxSize) {
         this.maxSize = maxSize;
-        this.data = new Object[maxSize];
+        this.obj = new Object[maxSize];
         this.top = -1;
+        this.length = 0;
     }
 
     //  进栈
     public boolean push(E e){
-        if(top == maxSize - 1){
+        if(isFull()){
             return false;
         }
-        data[++top] = e;
+        obj[++top] = e;
+        length++;
         return true;
     }
 
     //  出栈
     public Object pop(){
-        if(top == -1){
+        if(isEmpty()){
             return null;
         }
-        return data[top--];
+        length--;
+        return obj[top--];
+    }
+
+    //  判断栈是否为空
+    public boolean isEmpty(){
+        return top == -1;
+    }
+
+    //  判断栈是否满
+    public boolean isFull(){
+        return length == maxSize;
+    }
+
+    //  获取栈顶元素
+    public E getTop(){
+        if(isEmpty()){
+            return null;
+        }
+        return (E) obj[top];
     }
 
     // 遍历
@@ -84,7 +105,7 @@ class Sqstack<E>{
             return;
         }
         for (int i = 0; i <= top; i++) {
-            System.out.println(data[i]);
+            System.out.println(obj[i]);
         }
     }
 }
