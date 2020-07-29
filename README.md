@@ -13,7 +13,7 @@
 
 + [DataStructures](https://github.com/Upmerge/Daily/tree/master/1.DataStructuresAndAlgorithms/0.DataStructures)
 + [Algorithms](https://github.com/Upmerge/Daily/tree/master/1.DataStructuresAndAlgorithms/1.Algorithms)
-+ [Leetcode](https://github.com/Upmerge/Daily/tree/master/1.DataStructuresAndAlgorithms/2.Leetcode)
++ [Leetcode](https://github.com/Upmerge/Daily/tree/master/1.DataStructuresAndAlgorithms/2.Leetcode/LeetCode/leetcode/src/com/leetcode)
 
 ## 2.ComputerNetwork
 
