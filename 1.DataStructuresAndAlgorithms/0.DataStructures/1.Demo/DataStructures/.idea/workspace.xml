@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50c75b6f-f3f9-4875-bcec-3ddb70c92c76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../0.Note/6.Tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../0.Note/6.Tree.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2.LeetCode/LeetCode/leetcode/src/com/leetcode/simple/S206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/SingleLinkedListInstanceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/SingleLinkedListInstanceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/list/SingleLinkedListInstanceDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/list/SingleLinkedListInstanceDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/tree/BiTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/tree/BiTree.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
-  <component name="RunManager" selected="Application.BiTreeDemo">
+  <component name="RunManager" selected="Application.SingleLinkedListInstanceDemo">
     <configuration name="BiTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructures.tree.BiTreeDemo" />
       <module name="datastructures" />
@@ -113,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructures.recursion.Fibonacci" />
+    <configuration name="LinkQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructures.arrayqueue.LinkQueueDemo" />
       <module name="datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructures.recursion.*" />
+          <option name="PATTERN" value="com.datastructures.arrayqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructures.arrayqueue.LinkQueueDemo" />
+    <configuration name="SingleLinkedListInstanceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.datastructures.list.SingleLinkedListInstanceDemo" />
       <module name="datastructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.datastructures.arrayqueue.*" />
+          <option name="PATTERN" value="com.datastructures.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleLinkedListInstanceDemo" />
         <item itemvalue="Application.BiTreeDemo" />
         <item itemvalue="Application.LinkQueueDemo" />
         <item itemvalue="Application.CircleArrayQueueDemo" />
         <item itemvalue="Application.SqQueueDemo" />
-        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +203,8 @@
       <workItem from="1595477865953" duration="11418000" />
       <workItem from="1595846390764" duration="7319000" />
       <workItem from="1595940576341" duration="669000" />
+      <workItem from="1596124373993" duration="1432000" />
+      <workItem from="1596126334566" duration="603000" />
     </task>
     <servers />
   </component>
@@ -234,22 +240,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594558616899" />
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1595856585997">
+    <state width="766" height="912" key="GridCell.Tab.0.bottom" timestamp="1596125807037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595856585997" />
-    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1595856585997">
+    <state width="766" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596125807037" />
+    <state width="766" height="912" key="GridCell.Tab.0.center" timestamp="1596125807037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595856585997" />
-    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1595856585996">
+    <state width="766" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596125807037" />
+    <state width="766" height="912" key="GridCell.Tab.0.left" timestamp="1596125807037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595856585996" />
-    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1595856585997">
+    <state width="766" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596125807037" />
+    <state width="766" height="912" key="GridCell.Tab.0.right" timestamp="1596125807037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595856585997" />
+    <state width="766" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596125807037" />
     <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1595856585998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

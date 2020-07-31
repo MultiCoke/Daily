@@ -45,11 +45,11 @@ public class SingleLinkedListInstanceDemo {
         System.out.println("有效节点的个数为：" + SingleLinkedList.getLength(sl1.getHead()));
 
         //得到倒数第一个节点
-        System.out.println("倒数第1个节点信息：" + SingleLinkedList.getIndex(sl1.getHead(), 1));
+        System.out.println("倒数第1个节点信息：" + SingleLinkedList.getIndex(sl1.getHead(), 1));*/
 
         //反转单链表
-        SingleLinkedList.reverse(sl1.getHead());
-        sl1.list();*/
+        HeroSingleLinkedList.reverse(sl1.getHead());
+        sl1.list();
 
         //合并两个单向链表
         HeroSingleLinkedList sl2 = new HeroSingleLinkedList();
@@ -241,7 +241,7 @@ class HeroSingleLinkedList{
     }
 
     //反转单链表
-    public static void reverse(HeroNode head){
+    public static void  reverse(HeroNode head){
         if(head.next == null || head.next.next == null){
             return;
         }
