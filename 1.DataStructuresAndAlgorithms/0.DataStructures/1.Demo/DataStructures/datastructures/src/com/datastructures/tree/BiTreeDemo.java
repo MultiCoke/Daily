@@ -1,13 +1,22 @@
 package com.datastructures.tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class BiTreeDemo {
     public static void main(String[] args) {
         BiTree biTree = new BiTree();
         BiTNode biTreeRoot = new BiTNode();
+        //A B # D # # C E # # #
         biTree.create(biTreeRoot);
         biTree.preOrderTraverse(biTreeRoot);
+        System.out.println("-----------");
+        biTree.midOrderTraverse(biTreeRoot);
+        System.out.println("-----------");
+        biTree.postOrderTraverse(biTreeRoot);
+        System.out.println("-----------");
+        biTree.levelOrderTraverse(biTreeRoot);
     }
 }
 
@@ -50,6 +59,42 @@ class BiTree{
         System.out.println(biTree.data);
         preOrderTraverse(biTree.lchild);
         preOrderTraverse(biTree.rchild);
+    }
+
+    //  中序遍历
+    public void midOrderTraverse(BiTNode biTree){
+        if(biTree == null){
+            return;
+        }
+        midOrderTraverse(biTree.lchild);
+        System.out.println(biTree.data);
+        midOrderTraverse(biTree.rchild);
+    }
+
+    //  后序遍历
+    public void postOrderTraverse(BiTNode biTree){
+        if(biTree == null){
+            return;
+        }
+        midOrderTraverse(biTree.lchild);
+        midOrderTraverse(biTree.rchild);
+        System.out.println(biTree.data);
+    }
+
+    //  层序遍历
+    public void levelOrderTraverse(BiTNode biTree){
+        Queue<BiTNode> queue = new LinkedList<BiTNode>();
+        queue.add(biTree);
+        while(!queue.isEmpty()){
+            BiTNode temp = queue.poll();
+            System.out.println(temp.data);
+            if(temp.lchild != null){
+                queue.add(temp.lchild);
+            }
+            if(temp.rchild != null){
+                queue.add(temp.rchild);
+            }
+        }
     }
 }
 
