@@ -1,8 +1,6 @@
 package com.datastructures.graph;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Stack;
+import java.util.*;
 
 public class AdjacencyMatrixGraphDemo {
     public static void main(String[] args) {
@@ -23,7 +21,9 @@ public class AdjacencyMatrixGraphDemo {
         //  展示图
         graph.showGraph();
         //  递归深度优先遍历
-        graph.dfs();
+        //  graph.dfsStack();
+        //  广度优先遍历
+        graph.bfs();
     }
 }
 
@@ -106,20 +106,44 @@ class AdjacencyMatrixGraph{
 
     //  使用栈实现深度优先算法
     public void dfsStack(){
-        Stack<Integer> vStack = new Stack<>();
-        int i = 0;
-        vStack.push(i);
-        while(!vStack.isEmpty()){
-            int temp = vStack.pop();
-            if(isVisited[temp]){
-                continue;
-            }else{
-                isVisited[temp] = true;
-                System.out.println(getVertexByIndex(temp));
+        for (int i = 0; i < vertexArr.size(); i++) {
+            if(!isVisited[i]){
+                Stack<Integer> vStack = new Stack<>();
+                vStack.push(i);
+                while(!vStack.isEmpty()){
+                    int temp = vStack.pop();
+                    if(isVisited[temp]){
+                        continue;
+                    }else{
+                        isVisited[temp] = true;
+                        System.out.println(getVertexByIndex(temp));
+                    }
+                    for (int j = 0; j < vertexArr.size(); j++) {
+                        if(edges[temp][j] != 0 && !isVisited[j]){
+                            vStack.push(j);
+                        }
+                    }
+                }
             }
-            for (int j = 0; j < vertexArr.size(); j++) {
-                if(edges[temp][j] != 0 && isVisited[temp]){
-                    vStack.push(j);
+        }
+    }
+
+    //  使用队列实现广度优先算法
+    public void bfs(){
+        for (int i = 0; i < vertexArr.size(); i++) {
+            if(!isVisited[i]){
+                isVisited[i] = true;
+                Queue<Integer> queue = new LinkedList<>();
+                queue.add(i);
+                while(!queue.isEmpty()){
+                    int temp = queue.poll();
+                    System.out.println(getVertexByIndex(temp));
+                    for(int j = 0; j < vertexArr.size(); j++){
+                        if(edges[temp][j] != 0 && !isVisited[j]){
+                            isVisited[j] = true;
+                            queue.add(j);
+                        }
+                    }
                 }
             }
         }
