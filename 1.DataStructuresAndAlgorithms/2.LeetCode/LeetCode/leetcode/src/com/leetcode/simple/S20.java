@@ -56,6 +56,7 @@ public class S20 {
                 return false;
             }
         }
+
         return chStack.isEmpty();
     }
 }

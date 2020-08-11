@@ -31,23 +31,21 @@ class BiTree{
     //  创建树
     public void create(BiTNode biTree){
         String s = sc.nextLine();
-        if(s.equals("#")){
-            biTree = null;
-        }else{
+        if(!s.equals("#")){
             //  前序中序后序不同是在创建时根结点的顺序不同
             //  以下为前序
-            //  中序：lchild -> bitree -> rchild
-            //  后序：rchild -> lchild -> bitree
+            //  中序：lChild -> biTree -> rChild
+            //  后序：rChild -> lChild -> biTree
             biTree.data = s;
-            if(biTree.lchild == null){
-                biTree.lchild = new BiTNode();
+            if(biTree.lChild == null){
+                biTree.lChild = new BiTNode();
             }
-            create(biTree.lchild);
+            create(biTree.lChild);
 
-            if(biTree.rchild == null){
-                biTree.rchild = new BiTNode();
+            if(biTree.rChild == null){
+                biTree.rChild = new BiTNode();
             }
-            create(biTree.rchild);
+            create(biTree.rChild);
         }
     }
 
@@ -57,8 +55,8 @@ class BiTree{
             return;
         }
         System.out.println(biTree.data);
-        preOrderTraverse(biTree.lchild);
-        preOrderTraverse(biTree.rchild);
+        preOrderTraverse(biTree.lChild);
+        preOrderTraverse(biTree.rChild);
     }
 
     //  中序遍历
@@ -66,9 +64,9 @@ class BiTree{
         if(biTree == null){
             return;
         }
-        midOrderTraverse(biTree.lchild);
+        midOrderTraverse(biTree.lChild);
         System.out.println(biTree.data);
-        midOrderTraverse(biTree.rchild);
+        midOrderTraverse(biTree.rChild);
     }
 
     //  后序遍历
@@ -76,23 +74,23 @@ class BiTree{
         if(biTree == null){
             return;
         }
-        midOrderTraverse(biTree.lchild);
-        midOrderTraverse(biTree.rchild);
+        midOrderTraverse(biTree.lChild);
+        midOrderTraverse(biTree.rChild);
         System.out.println(biTree.data);
     }
 
     //  层序遍历
     public void levelOrderTraverse(BiTNode biTree){
-        Queue<BiTNode> queue = new LinkedList<BiTNode>();
+        Queue<BiTNode> queue = new LinkedList<>();
         queue.add(biTree);
         while(!queue.isEmpty()){
             BiTNode temp = queue.poll();
             System.out.println(temp.data);
-            if(temp.lchild != null){
-                queue.add(temp.lchild);
+            if(temp.lChild != null){
+                queue.add(temp.lChild);
             }
-            if(temp.rchild != null){
-                queue.add(temp.rchild);
+            if(temp.rChild != null){
+                queue.add(temp.rChild);
             }
         }
     }
@@ -101,16 +99,10 @@ class BiTree{
 //  二叉树结点
 class BiTNode{
     public String data; //  数据
-    public BiTNode lchild;  //  左子树
-    public BiTNode rchild;  //  右子树
+    public BiTNode lChild;  //  左子树
+    public BiTNode rChild;  //  右子树
 
     public BiTNode() {
-    }
-
-    public BiTNode(String data) {
-        this.data = data;
-        this.lchild = null;
-        this.rchild = null;
     }
 
     @Override

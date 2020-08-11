@@ -20,11 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50c75b6f-f3f9-4875-bcec-3ddb70c92c76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../0.Note/7.Graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../0.Note/7.Graph.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../2.LeetCode/LeetCode/leetcode/src/com/leetcode/simple/S21.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/graph/AdjacencyMatrixGraphDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/graph/AdjacencyMatrixGraphDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/tree/BiTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/tree/BiTreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/graph/AdjacencyMatrixGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/graph/AdjacencyMatrixGraph.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/graph/AdjacencyMatrixGraphDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/graph/AdjacencyMatrixGraphDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.LeetCode/LeetCode/leetcode/src/com/leetcode/simple/S118.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.LeetCode/LeetCode/leetcode/src/com/leetcode/simple/S118.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.LeetCode/LeetCode/leetcode/src/com/leetcode/simple/S20.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.LeetCode/LeetCode/leetcode/src/com/leetcode/simple/S20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.LeetCode/out/production/2.LeetCode/com/leetcode/simple/S118.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.LeetCode/out/production/2.LeetCode/com/leetcode/simple/S118.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.LeetCode/out/production/2.LeetCode/com/leetcode/simple/S20.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.LeetCode/out/production/2.LeetCode/com/leetcode/simple/S20.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +80,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
-  <component name="RunManager" selected="Application.AdjacencyMatrixGraphDemo">
+  <component name="RunManager" selected="Application.BiTreeDemo">
     <configuration name="AdjacencyMatrixGraphDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.datastructures.graph.AdjacencyMatrixGraphDemo" />
       <module name="datastructures" />
@@ -144,8 +148,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AdjacencyMatrixGraphDemo" />
         <item itemvalue="Application.BiTreeDemo" />
+        <item itemvalue="Application.AdjacencyMatrixGraphDemo" />
         <item itemvalue="Application.CircleArrayQueueDemo" />
         <item itemvalue="Application.SingleLinkedListInstanceDemo" />
         <item itemvalue="Application.LinkQueueDemo" />
@@ -195,6 +199,7 @@
       <workItem from="1596626581108" duration="9349000" />
       <workItem from="1596686244216" duration="5213000" />
       <workItem from="1596723535796" duration="9000" />
+      <workItem from="1597136294953" duration="2650000" />
     </task>
     <servers />
   </component>
@@ -230,22 +235,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="210" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594558616899" />
-    <state width="618" height="442" key="GridCell.Tab.0.bottom" timestamp="1596720420637">
+    <state width="618" height="912" key="GridCell.Tab.0.bottom" timestamp="1597152487989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="618" height="442" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596720420637" />
-    <state width="618" height="442" key="GridCell.Tab.0.center" timestamp="1596720420637">
+    <state width="618" height="912" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597152487989" />
+    <state width="618" height="912" key="GridCell.Tab.0.center" timestamp="1597152487989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="618" height="442" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596720420637" />
-    <state width="618" height="442" key="GridCell.Tab.0.left" timestamp="1596720420636">
+    <state width="618" height="912" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597152487989" />
+    <state width="618" height="912" key="GridCell.Tab.0.left" timestamp="1597152487988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="618" height="442" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596720420636" />
-    <state width="618" height="442" key="GridCell.Tab.0.right" timestamp="1596720420637">
+    <state width="618" height="912" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597152487988" />
+    <state width="618" height="912" key="GridCell.Tab.0.right" timestamp="1597152487989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="618" height="442" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596720420637" />
+    <state width="618" height="912" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597152487989" />
     <state width="1877" height="351" key="GridCell.Tab.1.bottom" timestamp="1596640377637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
