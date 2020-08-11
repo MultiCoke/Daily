@@ -1,7 +1,5 @@
 package com.leetcode.simple;
 
-import java.util.ArrayList;
-
 public class S21 {
     /*
     21. 合并两个有序链表
