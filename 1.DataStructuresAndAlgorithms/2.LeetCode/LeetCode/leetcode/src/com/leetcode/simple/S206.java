@@ -1,7 +1,5 @@
 package com.leetcode.simple;
 
-import javax.swing.*;
-
 public class S206 {
     /*
     206. 反转链表

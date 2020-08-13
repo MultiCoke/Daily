@@ -29,8 +29,8 @@ public class S242 {
             arr[t.charAt(i) - 'a']--;
         }
 
-        for (int i = 0; i < arr.length; i++) {
-            if(arr[i] != 0){
+        for (int value : arr) {
+            if (value != 0) {
                 return false;
             }
         }

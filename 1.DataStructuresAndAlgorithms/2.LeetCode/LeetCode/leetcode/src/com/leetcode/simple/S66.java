@@ -1,6 +1,5 @@
 package com.leetcode.simple;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class S66 {

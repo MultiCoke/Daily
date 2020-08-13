@@ -2,7 +2,6 @@ package com.leetcode.simple;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Stack;
 
 public class S13 {
     /*
@@ -55,7 +54,7 @@ public class S13 {
 
     public static int romanToInt(String s) {
         //  存储罗马字母对应的数值
-        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        Map<Character, Integer> map = new HashMap<>();
         map.put('I', 1);
         map.put('V', 5);
         map.put('X', 10);
