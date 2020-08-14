@@ -28,6 +28,6 @@ public class S104 {
             return 0;
         }
 
-        return Math.max(maxDepth(root.left), maxDepth(root.right));
+        return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 }
