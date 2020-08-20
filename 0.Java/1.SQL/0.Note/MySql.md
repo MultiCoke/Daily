@@ -428,7 +428,7 @@
 + 含义：又称多表查询，当查询的字段来自于多个表
 
 + 笛卡尔乘积现象：表1有m行，表2有n行，结果有m*n行
-  + 发生原因：没有有效的连接体哦阿健
+  + 发生原因：没有有效的连接条件
   + 如何避免：添加有效的连接条件
 
 + 分类：
@@ -465,7 +465,7 @@
   #注意：如果为表起了别名，则查询的字段就不能使用原来的表名去限定
   SELECT last_name,e.job_id,job_title FROM employees e,jobs j WHERE e.job_id=j.job_id;
   
-  #3.可以加筛选s
+  #3.可以加筛选
   #查询有奖金的员工名，部门名
   SELECT last_name,department_name FROM employees e,departments d WHERE e.department_id=d.department_id AND e.commission_pct IS NOT NULL;
   
@@ -492,7 +492,7 @@
 
   ```mysql
   #查询出员工的工资和工资级别
-  SELECT salary,grade_level FROM employem  es e,job_grades jg WHERE salary BETWEEN jg.lowest_sal AND jg.highest_sal
+  SELECT salary,grade_level FROM employees e,job_grades jg WHERE salary BETWEEN jg.lowest_sal AND jg.highest_sal
   ```
 
   + 自连接

@@ -20,15 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50c75b6f-f3f9-4875-bcec-3ddb70c92c76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../2.LeetCode/LeetCode/leetcode/src/com/leetcode/simple/S21.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/tree/BiTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/tree/BiTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/graph/AdjacencyMatrixGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/graph/AdjacencyMatrixGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/graph/AdjacencyMatrixGraphDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/datastructures/com/datastructures/graph/AdjacencyMatrixGraphDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2.LeetCode/LeetCode/leetcode/src/com/leetcode/simple/S118.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.LeetCode/LeetCode/leetcode/src/com/leetcode/simple/S118.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2.LeetCode/LeetCode/leetcode/src/com/leetcode/simple/S20.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.LeetCode/LeetCode/leetcode/src/com/leetcode/simple/S20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2.LeetCode/out/production/2.LeetCode/com/leetcode/simple/S118.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.LeetCode/out/production/2.LeetCode/com/leetcode/simple/S118.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../2.LeetCode/out/production/2.LeetCode/com/leetcode/simple/S20.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.LeetCode/out/production/2.LeetCode/com/leetcode/simple/S20.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +192,7 @@
       <workItem from="1596686244216" duration="5213000" />
       <workItem from="1596723535796" duration="9000" />
       <workItem from="1597136294953" duration="2650000" />
+      <workItem from="1597755852548" duration="662000" />
     </task>
     <servers />
   </component>
