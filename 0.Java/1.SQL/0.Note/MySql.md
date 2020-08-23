@@ -1,8 +1,6 @@
 ## MySql
 ### 1. 表的组成
 
-![image-20200401100515253](C:\Users\XH\AppData\Roaming\Typora\typora-user-images\image-20200401100515253.png)
-
 + employees:表名
 
 + employee_id:列名，字段，主键

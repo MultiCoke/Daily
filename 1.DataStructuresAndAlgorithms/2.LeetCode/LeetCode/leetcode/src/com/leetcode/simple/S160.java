@@ -60,6 +60,6 @@ public class S160 {
 }
 
 class ListNode{
-    public int data;
+    public int val;
     public ListNode next;
 }

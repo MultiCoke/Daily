@@ -12,9 +12,9 @@ public class S21 {
      */
     public static void main(String[] args) {
         ListNode l1 = new ListNode();
-        l1.data = 2;
+        l1.val = 2;
         ListNode l2 = new ListNode();
-        l2.data = 1;
+        l2.val = 1;
         ListNode listNode = mergeTwoLists(l1, l2);
     }
 
@@ -23,7 +23,7 @@ public class S21 {
         ListNode cur = pre;
 
         while(l1 != null && l2 != null){
-            if(l1.data < l2.data){
+            if(l1.val < l2.val){
                 cur.next = l1;
                 cur = cur.next;
                 l1 = l1.next;
