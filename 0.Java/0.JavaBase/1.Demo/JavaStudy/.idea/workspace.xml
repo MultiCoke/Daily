@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59d1194e-2d03-4989-b476-bef70cd5e7b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/com/study/Demo/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaStudy/com/study/jdbc/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaStudy/com/study/jdbc/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/study/Demo/test.java" beforeDir="false" />
-    </list>
+    <list default="true" id="59d1194e-2d03-4989-b476-bef70cd5e7b8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="ProjectId" id="1XpeJfU7qJA7WNXxMJbLJtbl4aD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -31,11 +26,11 @@
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -165,11 +160,12 @@
       <workItem from="1594300996908" duration="326000" />
       <workItem from="1594399184116" duration="153000" />
       <workItem from="1594517418331" duration="2324000" />
+      <workItem from="1598324209259" duration="283000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="527" y="114" key="CommitChangelistDialog2" timestamp="1594265495139">
