@@ -2,7 +2,8 @@ package com.datastructures.list;
 
 public class CycleLinkedListDemo {
     public static void main(String[] args) {
-        latin(9);
+        // latin(9);
+        anwer();
     }
 
     //  约瑟夫问题
