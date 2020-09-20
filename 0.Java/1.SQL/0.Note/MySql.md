@@ -149,7 +149,7 @@
      #5.按多个字段排序
      SELECT * FROM employees ORDER BY salary ASC,employee_id DESC;
      ```
-   
+
 4. 常见函数
 
    + 功能：将一组逻辑语句封装在方法体中，对外暴露方法名
@@ -817,13 +817,13 @@
    + 执行顺序
 
 	```mysql
-SELECT 查询列表			  7
-FROM 表			       1
-[JOIN TYPE] JOIN 表2    2	
-ON 连接条件			    3
-WHERE 筛选条件	       4
-GROUP BY 分组字段	  5
-HAVING 分组后的筛选	6
+	ELECT 查询列表			  7
+	ROM 表			       1
+	JOIN TYPE] JOIN 表2    2	
+	N 连接条件			    3
+	HERE 筛选条件	       4
+	ROUP BY 分组字段	  5
+	AVING 分组后的筛选	6
 ORDER BY 排序的字段  8
 LIMIT OFFSET,SIZE; 9
 	```
@@ -1179,7 +1179,7 @@ LIMIT OFFSET,SIZE; 9
      + PRIMARY KEY：主键，用于保证该字段的值具有唯一性，并且非空
      + UNIQUE：唯一，用于保证该字段的值具有唯一性，可以为空
      + CHECK：检查约束[mysql不支持]
-     + FOREIGN KEY：外键，限制两个表的关系，用于保证该字段的值必须来自于主表的关联列的值			
+     	 FOREIGN KEY：外键，限制两个表的关系，用于保证该字段的值必须来自于主表的关联列的值			
 
    + 添加约束的时机：
      + 创建表时

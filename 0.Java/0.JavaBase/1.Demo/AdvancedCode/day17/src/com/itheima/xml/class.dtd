@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT 班级 (学生+)>
+<!ATTLIST 班级 
+	班级名称 CDATA #REQUIRED
+	班级编号 ID 	#REQUIRED
+	班级类型 (文科|理科) #REQUIRED
+	班级口号 CDATA #IMPLIED
+>
+<!ELEMENT 学生 (学号+,姓名+,性别+)>
+<!ELEMENT 学号 (#PCDATA)>
+<!ELEMENT 姓名 (#PCDATA)>
+<!ELEMENT 性别 EMPTY>
+	<!ATTLIST 性别
+		性别 (男|女) "男"
+	>

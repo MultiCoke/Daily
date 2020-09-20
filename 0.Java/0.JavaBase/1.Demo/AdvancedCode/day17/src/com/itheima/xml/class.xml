@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE 班级 SYSTEM "class.dtd">
+<班级 班级名称="heima42" 班级编号="A42" 班级类型="理科">
+    <学生>
+        <学号>001</学号>
+        <姓名>xx</姓名>
+        <性别/>
+    </学生>
+</班级>
