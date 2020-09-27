@@ -1065,7 +1065,7 @@ LIMIT OFFSET,SIZE; 9
    INSERT INTO author VALUES
    (1,'树上春树','日本'),
    (2,'莫言','中国'),
-(3,'冯唐','中国')
+   (3,'冯唐','中国')
    (4,'金庸','中国');
    
    #仅仅复制表的结构
@@ -1079,7 +1079,6 @@ LIMIT OFFSET,SIZE; 9
    CREATE TABLE copy3
    SELECT id,au_name
    FROM author
-   WHERE 0;
    
    #只复制部分数据
    CREATE TABLE copy4
@@ -1174,7 +1173,7 @@ LIMIT OFFSET,SIZE; 9
 
    + 含义：一种限制，用于限制表中的数据，为了保证表中的数据的准确和可靠性
    + 分类：
-     + NOT NULL：非空，用于保证该字段的值不能位空
+     + NOT NULL：非空，用于保证该字段的值不能为空
      + DEFAULT：默认，用于保证该字段有默认值
      + PRIMARY KEY：主键，用于保证该字段的值具有唯一性，并且非空
      + UNIQUE：唯一，用于保证该字段的值具有唯一性，可以为空
@@ -1291,9 +1290,13 @@ LIMIT OFFSET,SIZE; 9
    + 显式事务：事务具有明显的开启和结束的标记，必须先设置自动提交功能为禁用
 
      ```Mysql
-     #步骤1.开启事务
+     #步骤1.开启事务 不建议使用方式1
+     -- 方式1，通过设置全局变量
      set autocommit=0;
+     
+     -- 方式2，手动开启事务
      start transaction;可选的
+     
      
      #步骤2：编写事务中的sql语句(select,insert,update,delete)
      语句1;
@@ -1491,11 +1494,14 @@ LIMIT OFFSET,SIZE; 9
 
    + 创建
 
-     ```
+     ```sql
+     DELIMITER $$
+     DROP PROCEDURE IF EXISTS 存储过程名
      CREATE PROCEDURE 存储过程名(参数模式 参数名 参数类型)
      BEGIN 
      	存储过程体
-     END
+     END$$
+     DELIMITER ;
      
      注意：
      1.参数模式：in,out,inout,其中in可以省略
