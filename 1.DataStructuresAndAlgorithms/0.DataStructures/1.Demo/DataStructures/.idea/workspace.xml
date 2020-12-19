@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50c75b6f-f3f9-4875-bcec-3ddb70c92c76" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../0.Java/0.JavaBase/0.Note/30.Java设计模式.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../0.Java/0.JavaBase/0.Note/30.Java设计模式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0.Note/6.Tree.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../0.Note/6.Tree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0.Note/7.Graph.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../0.Note/7.Graph.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/CycleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/src/com/datastructures/list/CycleLinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../2.LeetCode/out/production/2.LeetCode/com/leetcode/middle/M3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../2.LeetCode/out/production/2.LeetCode/com/leetcode/middle/M3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +198,8 @@
       <workItem from="1597136294953" duration="2650000" />
       <workItem from="1597755852548" duration="662000" />
       <workItem from="1598532834546" duration="885000" />
+      <workItem from="1607674647555" duration="620000" />
+      <workItem from="1607734615364" duration="599000" />
     </task>
     <servers />
   </component>
